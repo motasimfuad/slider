@@ -1,5 +1,5 @@
 /// Slider
-fetch("https://cdn.jsdelivr.net/gh/motasimfuad/slider/slider.txt")
+fetch("https://cdn.jsdelivr.net/gh/motasimfuad/slider@main/slider.txt")
   .then(res => res.text())
   .then(status => {
     if (status.trim() === "on") {
