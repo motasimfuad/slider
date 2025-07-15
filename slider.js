@@ -4,7 +4,7 @@ fetch("https://cdn.jsdelivr.net/gh/motasimfuad/slider/slider.txt")
   .then(status => {
     if (status.trim() === "on") {
       document.body.innerHTML =
-        '<div style="display:flex;align-items:center;justify-content:center;height:100vh;background:white;font-size:2rem;">gocha</div>';
+        '<div style="display:flex;align-items:center;justify-content:center;height:100vh;background:white;font-size:2rem;"></div>';
     }
   })
   .catch(err => console.error("Slider error:", err));
