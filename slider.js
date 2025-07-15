@@ -1,4 +1,4 @@
-fetch("https://cdn.jsdelivr.net/gh/<your-username>/shopify-slider-toggle/slider.txt")
+fetch("https://cdn.jsdelivr.net/gh/motasimfuad/slider/slider.txt")
   .then(res => res.text())
   .then(status => {
     if (status.trim() === "on") {
