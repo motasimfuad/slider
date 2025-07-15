@@ -1,3 +1,4 @@
+/// Slider
 fetch("https://cdn.jsdelivr.net/gh/motasimfuad/slider/slider.txt")
   .then(res => res.text())
   .then(status => {
